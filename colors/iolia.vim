@@ -56,9 +56,11 @@ let s:LightPink1      = ['217',  '#ffafaf']
 let s:Violet          = ['177',  '#d787ff']
 let s:Cornsilk1       = ['230',  '#ffffd7']
 let s:LightGoldenrod2 = ['221',  '#ffd75f']
+let s:DarkCyan        = ['36',   '#00af87']
+let s:LightSlateGray  = ['103',  '#8787af']
 
 " Syntax highlighting groups
-call s:highlight('Comment',        s:Thistle1,        s:clear, s:italic    )
+call s:highlight('Comment',        s:LightSlateGray,        s:clear, s:italic    )
 call s:highlight('Constant',       s:MediumOrchid1,   s:clear, s:bold      )
 call s:highlight('String',         s:SteelBlue1,      s:clear, s:none      )
 call s:highlight('Character',      s:MediumOrchid1,   s:clear, s:none      )
@@ -79,8 +81,8 @@ call s:highlight('Include',        s:Thistle1,        s:clear, s:italic    )
 call s:highlight('Define',         s:Thistle1,        s:clear, s:italic    )
 call s:highlight('Macro',          s:Thistle1,        s:clear, s:italic    )
 call s:highlight('PreCondit',      s:Thistle1,        s:clear, s:italic    )
-call s:highlight('Type',           s:Orchid,          s:clear, s:bold      )
-call s:highlight('StorageClass',   s:Orchid,          s:clear, s:bold      )
+call s:highlight('Type',           s:DarkCyan,        s:clear, s:bold      )
+call s:highlight('StorageClass',   s:DarkCyan,         s:clear, s:bold      )
 call s:highlight('Structure',      s:LightGoldenrod2, s:clear, s:bold      )
 call s:highlight('Typedef',        s:LightGoldenrod2, s:clear, s:bold      )
 call s:highlight('Special',        s:LightGoldenrod2, s:clear, s:none      )
