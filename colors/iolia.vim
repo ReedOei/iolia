@@ -56,11 +56,12 @@ let s:LightPink1      = ['217',  '#ffafaf']
 let s:Violet          = ['177',  '#d787ff']
 let s:Cornsilk1       = ['230',  '#ffffd7']
 let s:LightGoldenrod2 = ['221',  '#ffd75f']
-let s:DarkCyan        = ['36',   '#00af87']
-let s:LightSlateGray  = ['103',  '#8787af']
+let s:SeaGreen1 = ['85',  '#5fffaf']
+let s:SeaGreen3 = ['78',  '#5fd787']
+let s:Gold3 = ['142',  '#afaf00']
 
 " Syntax highlighting groups
-call s:highlight('Comment',        s:LightSlateGray,        s:clear, s:italic    )
+call s:highlight('Comment',        s:LightPink1,        s:clear, s:italic    )
 call s:highlight('Constant',       s:MediumOrchid1,   s:clear, s:bold      )
 call s:highlight('String',         s:SteelBlue1,      s:clear, s:none      )
 call s:highlight('Character',      s:MediumOrchid1,   s:clear, s:none      )
@@ -75,14 +76,14 @@ call s:highlight('Repeat',         s:Violet,          s:clear, s:bold      )
 call s:highlight('Label',          s:Violet,          s:clear, s:bold      )
 call s:highlight('Operator',       s:SkyBlue2,        s:clear, s:none      )
 call s:highlight('Keyword',        s:Violet,          s:clear, s:none      )
-call s:highlight('Exception',      s:Thistle1,        s:clear, s:italic    )
-call s:highlight('PreProc',        s:Thistle1,        s:clear, s:italic    )
-call s:highlight('Include',        s:Thistle1,        s:clear, s:italic    )
-call s:highlight('Define',         s:Thistle1,        s:clear, s:italic    )
-call s:highlight('Macro',          s:Thistle1,        s:clear, s:italic    )
-call s:highlight('PreCondit',      s:Thistle1,        s:clear, s:italic    )
-call s:highlight('Type',           s:LightCoral,        s:clear, s:italic    )
-call s:highlight('StorageClass',   s:LightCoral,         s:clear, s:bold      )
+call s:highlight('Exception',      s:SeaGreen3,        s:clear, s:italic    )
+call s:highlight('PreProc',        s:SeaGreen3,        s:clear, s:italic    )
+call s:highlight('Include',        s:SeaGreen3,        s:clear, s:italic    )
+call s:highlight('Define',         s:SeaGreen3,        s:clear, s:italic    )
+call s:highlight('Macro',          s:SeaGreen3,        s:clear, s:italic    )
+call s:highlight('PreCondit',      s:SeaGreen3,        s:clear, s:italic    )
+call s:highlight('Type',           s:Orchid,          s:clear, s:bold      )
+call s:highlight('StorageClass',   s:Orchid,          s:clear, s:bold      )
 call s:highlight('Structure',      s:LightGoldenrod2, s:clear, s:bold      )
 call s:highlight('Typedef',        s:LightGoldenrod2, s:clear, s:bold      )
 call s:highlight('Special',        s:LightGoldenrod2, s:clear, s:none      )
